@@ -1,0 +1,85 @@
+html {
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hero {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.hero-info {
+    height: 5em;
+}
+
+.hero-info button {
+    display: block;
+}
+
+.hero span {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.hero-image {
+    height: 5em;
+}
+
+.cards-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p {
+    font-style: italic;
+}
+
+.quote span {
+    font-weight: bold;
+    margin-left: auto;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup p {
+    background-color: blue;
+}
+
+.footer {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+}
