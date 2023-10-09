@@ -2,20 +2,37 @@ html {
     font-family: Roboto;
 }
 
+.container {
+    
+}
+
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: darkgray;
-    margin-left: 2em;
-    margin-right: 2em;
+    align-items: top;
+    background-color: darkslategrey;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 2em;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: grey;
 }
 
 .hero {
-    background-color: lightgrey;
+    background-color: darkslategray;
     display: flex;
     justify-content: space-between;
-    margin-left: 2em;
-    margin-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: white;
+}
+
+.hero-image {
+
 }
 
 .hero-info {
@@ -39,21 +56,27 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 1em;
+    background-color: white;
+    font-weight: bold;
 }
 
 .cards {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 2em;
+    background-color: white;
 }
 
 .card {
-    border: black 1px solid;
+    border: blue 1px solid;
     border-radius: 5px;
+    padding: 2em;
 }
 
 .quote {
-    background-color: aqua;
+    background-color: lightgray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,10 +99,13 @@ html {
 
 .signup p {
     background-color: blue;
+    padding: 1em 6em 1em 6em;
+    color: white;
 }
 
 .footer {
-    background-color: darkgray;
+    background-color: darkslategrey;
+    color: white;
     display: flex;
     justify-content: center;
 }
